@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+
+body{
+    font-family: 'Open Sans';
+    background: rgb(230, 228, 228);
+    margin:auto;
+   
+
+}
+
+.section1{
+   margin:auto;
+   
+    background-color: white;
+  
+   height: 500px;
+  width: 650px;
+  margin-top: 40px;
+  padding-top:40px;
+  border-radius: 10px;
+  
+
+}
+
+.section2{
+    margin:auto;
+    
+     background-color: white;
+   
+    height: 150px;
+   width: 650px;
+   margin-top: 40px;
+   padding-top:40px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .section3{
+    margin:auto;
+    
+     background-color: white;
+   
+    height: 1100px;
+   width: 650px;
+   margin-top: 40px;
+   padding-top:40px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+
+.profil{
+    border-radius: 100px;
+    width:180px;
+    height:180px;
+    margin-left:225px;
+    margin-top:-10px;
+    border: 3px solid gray;
+    
+    
+
+}
+.titre{
+    display: flex;
+    
+    margin-top:5px;
+    
+    flex-direction: column;
+    
+}
+
+p#nom{
+    color:rgb(240, 98, 98);
+    font-weight: bold;
+    font-size:1.5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+p#inventeur{
+    margin-top: -20px;
+    font-size:1em;
+    display: flex;
+    justify-content: center;
+    color:gray;
+    
+}
+.text{
+   
+    margin-top:-50px;
+    color:gray;
+    padding:10px 10px 10px 10px;
+    
+}
+
+.descriptionTim{
+    text-align: justify;
+    justify-content: center;
+    margin-left: 35px;
+    font-size:1.15em
+    
+    
+}
+
+.lien{
+display: flex;
+justify-content: center;
+   
+}
+
+input{
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(240, 98, 98);
+    color: white;
+ 
+  
+}
+input:hover{
+    background-color: rgb(177, 30, 30); 
+    cursor: pointer;
+}
+.lienReseaux{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+color : gray;
+font-size: 1.5em;
+text-decoration: none;
+margin : 0 0 0 0;
+opacity: 80%;
+
+}
+.lienReseaux:hover{
+    color: teal;
+    opacity: 100%;
+}
+
+.nomReseaux{
+   
+    color:gray;
+    margin-top: 60px;
+    margin-left: -80px;
+    font-size: 0.6em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2{
+    color:gray;
+}
+
+table{
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.filmImage{
+    weight: 200px;
+    height: 200px;
+    padding-right: 50px;
+}
+h3{
+    color:gray;
+    margin-left: 100px;
+}
+.descriptionFilm{
+    color : gray;
+}
+
